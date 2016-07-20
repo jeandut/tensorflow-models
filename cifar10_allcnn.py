@@ -29,6 +29,7 @@ BATCH_SIZE=128
 EPSILON_SAFE_LOG=np.exp(-50.)
 
 #Loading CIFAR-10 from data_dir directory
+#The full code for the preprocessing is taken from nervana neon repository Image.py which is also inspired from pylearn2
 
 train_batches=[os.path.join(batchdir, "data_batch_"+str(i)) for i in range(1,6)]
 
