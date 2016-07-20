@@ -9,7 +9,7 @@ import tensorflow as tf
 from scipy import ndimage
 
 
-
+#This is me reimplementing dataset_class which can be found in tensorflow MNIST tutorial
 class DataSet(object):
 
   def __init__(self, images, labels, preprocess="scale", da=False,
