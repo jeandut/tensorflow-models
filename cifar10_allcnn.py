@@ -15,7 +15,7 @@ import dataset_class as dataset
 parser=argparse.ArgumentParser(description="Testing All-CNN on CIFAR-10 global contrast normalised and whitened without data-augmentation.")
 parser.add_argument('--learning_rate', default=0.05, help="Initial Learning Rate")
 parser.add_argument('--weight_decay',default=0.001, help="weight decay")
-parser.add_argument('--data_dir',default="/home/mordan/Bureau", help="Directory with cifar-10-batches-py")
+parser.add_argument('--data_dir',default="../data", help="Directory with cifar-10-batches-py")
 
 args=parser.parse_args()
 
