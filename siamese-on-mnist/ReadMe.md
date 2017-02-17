@@ -2,4 +2,4 @@ Reimplementation of caffe siamese example which can be found in https://github.c
 
 Run the main script to get:
 
-![Alt text](/siamese-on_mnist/workshop_tensorflow.png?raw=true "Optional Title")
+![Alt text](/siamese-on-mnist/workshop_tensorflow.png?raw=true "Optional Title")
